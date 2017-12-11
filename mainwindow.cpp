@@ -29,7 +29,7 @@ void MainWindow::on_pushButton_2_clicked() // Button to recalculate grades.
     if (ui->OptionA->isChecked()) {
         results = .25*hwAverage + .2*ui->mt1->value() + .2*ui->mt2->value() + .35*ui->fe->value();
     } else {
-        results = .25*hwAverage + .3*std::min(ui->mt1->value(),ui->mt2->value()) + .44*ui->fe->value();
+        results = .25*hwAverage + .3*std::max(ui->mt1->value(),ui->mt2->value()) + .44*ui->fe->value();
     }
 
     ui->redo1->setText(QString::number(results));
