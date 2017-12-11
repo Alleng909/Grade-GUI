@@ -17,10 +17,10 @@
    <widget class="QWidget" name="">
     <property name="geometry">
      <rect>
-      <x>0</x>
+      <x>10</x>
       <y>10</y>
       <width>291</width>
-      <height>291</height>
+      <height>361</height>
      </rect>
     </property>
     <layout class="QVBoxLayout" name="verticalLayout">
@@ -250,6 +250,107 @@
      </item>
     </layout>
    </widget>
+   <widget class="QWidget" name="">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>10</y>
+      <width>281</width>
+      <height>131</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_3">
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_17">
+       <item>
+        <widget class="QLabel" name="label_17">
+         <property name="text">
+          <string>Midterm 1 </string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QSlider" name="horizontalSlider_17">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QSpinBox" name="spinBox_17"/>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_18">
+       <item>
+        <widget class="QLabel" name="label_18">
+         <property name="text">
+          <string>Midterm 2 </string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QSlider" name="horizontalSlider_18">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QSpinBox" name="spinBox_18"/>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_19">
+       <item>
+        <widget class="QLabel" name="label_19">
+         <property name="text">
+          <string>Final Exam</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QSlider" name="horizontalSlider_19">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QSpinBox" name="spinBox_19"/>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>150</y>
+      <width>131</width>
+      <height>42</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_4">
+     <item>
+      <widget class="QRadioButton" name="radioButton">
+       <property name="text">
+        <string>Grading Method A</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QRadioButton" name="radioButton_2">
+       <property name="text">
+        <string>Grading Method B</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
   </widget>
   <widget class="QMenuBar" name="menuBar">
    <property name="geometry">
@@ -298,7 +399,7 @@
    <hints>
     <hint type="sourcelabel">
      <x>273</x>
-     <y>52</y>
+     <y>57</y>
     </hint>
     <hint type="destinationlabel">
      <x>236</x>
@@ -314,7 +415,7 @@
    <hints>
     <hint type="sourcelabel">
      <x>161</x>
-     <y>95</y>
+     <y>108</y>
     </hint>
     <hint type="destinationlabel">
      <x>266</x>
@@ -330,11 +431,11 @@
    <hints>
     <hint type="sourcelabel">
      <x>196</x>
-     <y>141</y>
+     <y>163</y>
     </hint>
     <hint type="destinationlabel">
      <x>256</x>
-     <y>134</y>
+     <y>156</y>
     </hint>
    </hints>
   </connection>
@@ -346,11 +447,11 @@
    <hints>
     <hint type="sourcelabel">
      <x>196</x>
-     <y>176</y>
+     <y>207</y>
     </hint>
     <hint type="destinationlabel">
      <x>263</x>
-     <y>179</y>
+     <y>210</y>
     </hint>
    </hints>
   </connection>
@@ -362,11 +463,11 @@
    <hints>
     <hint type="sourcelabel">
      <x>196</x>
-     <y>204</y>
+     <y>243</y>
     </hint>
     <hint type="destinationlabel">
      <x>266</x>
-     <y>210</y>
+     <y>249</y>
     </hint>
    </hints>
   </connection>
@@ -378,11 +479,11 @@
    <hints>
     <hint type="sourcelabel">
      <x>185</x>
-     <y>246</y>
+     <y>295</y>
     </hint>
     <hint type="destinationlabel">
      <x>266</x>
-     <y>246</y>
+     <y>295</y>
     </hint>
    </hints>
   </connection>
@@ -394,11 +495,11 @@
    <hints>
     <hint type="sourcelabel">
      <x>203</x>
-     <y>274</y>
+     <y>331</y>
     </hint>
     <hint type="destinationlabel">
-     <x>255</x>
-     <y>280</y>
+     <x>265</x>
+     <y>337</y>
     </hint>
    </hints>
   </connection>
@@ -410,11 +511,11 @@
    <hints>
     <hint type="sourcelabel">
      <x>206</x>
-     <y>319</y>
+     <y>385</y>
     </hint>
     <hint type="destinationlabel">
      <x>269</x>
-     <y>319</y>
+     <y>385</y>
     </hint>
    </hints>
   </connection>
@@ -426,11 +527,11 @@
    <hints>
     <hint type="sourcelabel">
      <x>266</x>
-     <y>88</y>
+     <y>101</y>
     </hint>
     <hint type="destinationlabel">
      <x>221</x>
-     <y>88</y>
+     <y>101</y>
     </hint>
    </hints>
   </connection>
@@ -442,11 +543,11 @@
    <hints>
     <hint type="sourcelabel">
      <x>256</x>
-     <y>134</y>
+     <y>156</y>
     </hint>
     <hint type="destinationlabel">
      <x>228</x>
-     <y>137</y>
+     <y>159</y>
     </hint>
    </hints>
   </connection>
@@ -457,12 +558,12 @@
    <slot>setValue(int)</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>252</x>
-     <y>172</y>
+     <x>262</x>
+     <y>203</y>
     </hint>
     <hint type="destinationlabel">
      <x>200</x>
-     <y>179</y>
+     <y>210</y>
     </hint>
    </hints>
   </connection>
@@ -473,12 +574,12 @@
    <slot>setValue(int)</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>249</x>
-     <y>210</y>
+     <x>259</x>
+     <y>249</y>
     </hint>
     <hint type="destinationlabel">
      <x>214</x>
-     <y>210</y>
+     <y>249</y>
     </hint>
    </hints>
   </connection>
@@ -490,11 +591,11 @@
    <hints>
     <hint type="sourcelabel">
      <x>266</x>
-     <y>235</y>
+     <y>284</y>
     </hint>
     <hint type="destinationlabel">
      <x>214</x>
-     <y>252</y>
+     <y>301</y>
     </hint>
    </hints>
   </connection>
@@ -505,12 +606,12 @@
    <slot>setValue(int)</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>252</x>
-     <y>280</y>
+     <x>262</x>
+     <y>337</y>
     </hint>
     <hint type="destinationlabel">
      <x>217</x>
-     <y>284</y>
+     <y>341</y>
     </hint>
    </hints>
   </connection>
@@ -522,11 +623,139 @@
    <hints>
     <hint type="sourcelabel">
      <x>266</x>
-     <y>309</y>
+     <y>375</y>
     </hint>
     <hint type="destinationlabel">
      <x>214</x>
-     <y>322</y>
+     <y>388</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>horizontalSlider_17</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>spinBox_17</receiver>
+   <slot>setValue(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>465</x>
+     <y>65</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>577</x>
+     <y>65</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>horizontalSlider_18</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>spinBox_18</receiver>
+   <slot>setValue(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>461</x>
+     <y>114</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>573</x>
+     <y>108</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>horizontalSlider_19</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>spinBox_19</receiver>
+   <slot>setValue(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>479</x>
+     <y>160</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>570</x>
+     <y>157</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>spinBox_19</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>horizontalSlider_19</receiver>
+   <slot>setValue(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>574</x>
+     <y>160</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>514</x>
+     <y>160</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>spinBox_18</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>horizontalSlider_18</receiver>
+   <slot>setValue(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>567</x>
+     <y>108</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>514</x>
+     <y>108</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>spinBox_17</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>horizontalSlider_17</receiver>
+   <slot>setValue(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>574</x>
+     <y>55</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>539</x>
+     <y>55</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>radioButton</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>radioButton_2</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>525</x>
+     <y>202</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>518</x>
+     <y>237</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>radioButton_2</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>radioButton</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>490</x>
+     <y>237</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>490</x>
+     <y>202</y>
     </hint>
    </hints>
   </connection>
