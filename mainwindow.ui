@@ -14,6 +14,19 @@
    <string>MainWindow</string>
   </property>
   <widget class="QWidget" name="centralWidget">
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>460</x>
+      <y>150</y>
+      <width>141</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Grading Scheme Info</string>
+    </property>
+   </widget>
    <widget class="QWidget" name="">
     <property name="geometry">
      <rect>
@@ -724,38 +737,6 @@
     <hint type="destinationlabel">
      <x>539</x>
      <y>55</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>radioButton</sender>
-   <signal>clicked(bool)</signal>
-   <receiver>radioButton_2</receiver>
-   <slot>setChecked(bool)</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>525</x>
-     <y>202</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>518</x>
-     <y>237</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>radioButton_2</sender>
-   <signal>clicked(bool)</signal>
-   <receiver>radioButton</receiver>
-   <slot>setChecked(bool)</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>490</x>
-     <y>237</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>490</x>
-     <y>202</y>
     </hint>
    </hints>
   </connection>
